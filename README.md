@@ -1,95 +1,90 @@
-# Rocky Linux Infrastructure & Security Lab
+# Rocky Linux Infrastructure Lab
 
-## Project Overview
+## Overview
 
-This project is a hands-on Rocky Linux infrastructure and security home lab built in VirtualBox.
+This project documents my hands-on Linux administration and infrastructure lab built using Rocky Linux in a virtualized environment.
 
-The purpose of the lab is to develop practical Linux administration, networking, infrastructure, and cybersecurity skills through real system configuration, troubleshooting, and service deployment.
+The goal of this lab was to develop practical experience with:
+
+- Linux system administration
+- SSH configuration and troubleshooting
+- Apache web server deployment
+- Firewall configuration
+- File permissions and troubleshooting
+- Git and GitHub workflows
+- Networking fundamentals
+- Service management using systemd
 
 ---
 
 ## Technologies Used
 
-- Rocky Linux 10
+- Rocky Linux
 - VirtualBox
-- OpenSSH
 - Apache HTTP Server
+- OpenSSH
 - firewalld
-- Git/GitHub
+- Git & GitHub
+- Linux CLI
 
 ---
 
-## Skills Practiced
+## Skills Demonstrated
 
-- Linux system administration
-- SSH remote administration
-- Linux permissions and ownership
-- Firewall management
-- Apache web hosting
-- Service management with systemctl
-- Log analysis with journalctl
-- Networking fundamentals
-- Troubleshooting methodology
+### Linux Administration
+- User and group management
+- File permissions
+- Service management
+- Directory structure navigation
+- Process monitoring
 
----
+### Networking & SSH
+- SSH server configuration
+- Port verification
+- Firewall rule verification
+- Network troubleshooting
 
-## Infrastructure Overview
+### Apache Web Server
+- Apache installation and configuration
+- Custom webpage deployment
+- Permission troubleshooting
+- HTTP troubleshooting
+- Log investigation
 
-- Rocky Linux VM running in VirtualBox
-- Bridged networking configured
-- Remote SSH administration from Windows host
-- Apache web server hosting internal website
-- Firewall configured for SSH and HTTP traffic
-
----
-
-## Major Concepts Learned
-
-### NAT vs Bridged Networking
-
-Learned the difference between VirtualBox NAT networking and bridged networking and how bridged mode allows the VM to function as a real device on the local network.
-
-### SSH Administration
-
-Configured and managed OpenSSH for secure remote administration.
-
-### Linux Permissions
-
-Practiced chmod, chown, ownership, and directory traversal permissions.
-
-### Firewall Management
-
-Configured firewalld service rules and tested temporary vs permanent firewall configurations.
-
-### Apache Hosting
-
-Installed and configured Apache HTTP Server and hosted a custom internal website.
+### Git & Documentation
+- Git repository management
+- Commit workflow
+- Organized technical documentation
+- Troubleshooting documentation
 
 ---
 
-## Troubleshooting Scenarios
+## Project Structure
 
-### Permission Denied Errors
-
-Encountered Linux directory traversal permission issues and resolved them using proper chmod permissions on parent directories.
-
-### SSH Hardening
-
-Modified SSH configuration safely using backup procedures, syntax validation, and service restart testing.
-
-### Apache Access Issues
-
-Tested and resolved Apache permission and firewall access issues.
+```bash
+screenshots/
+├── apache/
+├── firewall/
+├── git/
+├── linux-admin/
+├── networking/
+├── ssh/
+└── troubleshooting/
+```
 
 ---
 
-## Future Improvements
+## Notable Troubleshooting Scenarios
 
-- SSH key authentication
-- Fail2ban
-- SELinux investigation
-- Docker containers
-- Reverse proxy setup
-- HTTPS with self-signed certificates
-- Monitoring and alerting
-- Bash scripting automation
+- SSH configuration verification
+- Apache 403 permission errors
+- HTTP timeout troubleshooting
+- Firewall HTTP access fixes
+- Web directory permission issues
+
+---
+
+## Author
+
+Michael Lee  
+U.S. Navy Veteran transitioning into Linux, infrastructure, networking, and cybersecurity.
